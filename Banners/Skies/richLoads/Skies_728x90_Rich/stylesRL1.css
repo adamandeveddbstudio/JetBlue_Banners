@@ -1,0 +1,460 @@
+body,
+body * {
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  border: 0;
+}
+
+button,
+div,
+img,
+svg,
+video {
+  position: absolute;
+}
+
+#main_container {
+  position: absolute;
+  background-color: #000064;
+  border: 1px solid #000000;
+  overflow: hidden;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 728px;
+  height: 90px;
+}
+
+#main_content {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 728px;
+  height: 90px;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+#default_exit {
+  top: -1px;
+  left: -1px;
+  width: 728px;
+  height: 90px;
+  z-index: 500;
+  cursor: pointer;
+}
+
+.posAbsolute {
+  position: absolute;
+}
+
+.posRelative {
+
+  position: relative;
+}
+
+.bannerSize {
+
+  width: 728px;
+  height: 90px;
+}
+
+:focus {
+  outline: 0;
+}
+
+::-moz-focus-inner {
+  border: 0;
+}
+
+/* Custom Styling */
+
+/* Fonts */
+@font-face {
+  font-family: "ESKlarheitGrotesk Smbd";
+  src: url("./fonts/ESKlarheitGrotesk-Smbd.woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "ESKlarheitGrotesk Xbd";
+  src: url("./fonts/ESKlarheitGrotesk-Xbd.woff");
+  font-weight: normal;
+}
+
+
+.w100 {
+
+  width: 100%;
+}
+
+.ESKlarheitGrotesk {
+
+  font-family: 'ESKlarheitGrotesk Xbd';
+}
+
+.ESKlarheitGroteskSmbd {
+
+  font-family: "ESKlarheitGrotesk Smbd";
+}
+
+/*pre styles end*/
+.shadow {
+  width: 300px;
+  top: 0px;
+}
+
+.orange_dash {
+  background-color: #ff6433;
+  height: 9px;
+  top: 0px;
+  transform: rotate(90deg);
+  left: -359px;
+}
+
+
+.copy1 {
+  color: #ffffff;
+  top: 45px;
+  left: 24px;
+  font-size: 20.6px;
+  line-height: 27.6px;
+}
+
+.star {
+
+  font-size: 12px;
+}
+
+.white_line {
+  width: 73px;
+  height: 3px;
+  background-color: #ffffff;
+  display: inline-block;
+  top: -6px;
+  left: -223px;
+}
+
+.card1 {
+  width: 105px;
+  height: auto;
+  top: 9px;
+  left: 463px;
+}
+
+.terms {
+  top: 77px;
+  left: 447px;
+  font-size: 6px;
+  color: #0000aa;
+}
+
+.logo {
+  top: 33px;
+  left: 604px;
+  width: 93px;
+  height: auto;
+}
+
+.copy2 {
+  color: #ffffff;
+  top: 30px;
+  left: 25px;
+  font-size: 20.7px;
+  line-height: 30.8px;
+}
+
+
+
+.copy3 {
+  color: #ffffff;
+  top: 30px;
+  left: 81px;
+  font-size: 64.2px;
+  line-height: 30.8px;
+}
+
+.copy4 {
+  color: #ffffff;
+  top: 23px;
+  left: 297px;
+  font-size: 20.1px;
+  line-height: 30.8px;
+}
+
+div#frame2 {
+  top: 13px;
+}
+
+.copy5 {
+  color: #ffffff;
+  top: 27px;
+  left: 22px;
+  font-size: 20.1px;
+  line-height: 30.8px;
+}
+
+.copy6 {
+  color: #ffffff;
+  top: 30px;
+  left: 166px;
+  font-size: 62.1px;
+  line-height: 30.8px;
+}
+
+.dollar {
+
+  font-size: 30px;
+  top: -22px;
+}
+
+.copy7 {
+  color: #ffffff;
+  top: 27px;
+  left: 298px;
+  font-size: 20.1px;
+  line-height: 30.8px;
+}
+
+.copyFrame3 {
+
+  top: 13px;
+}
+
+.card_animation {
+  top: 2px;
+  left: -10px;
+}
+
+.card2 {
+  width: 95.6px;
+  height: auto;
+  left: 475px;
+  top: -54px;
+}
+
+#cta {
+  width: 92px;
+  height: 31px;
+  background-color: #ff6433;
+  border-radius: 6px;
+  color: #ffffff;
+  font-family: "ESKlarheitGrotesk Smbd";
+  text-align: center;
+  font-size: 11.7px;
+  top: -130px;
+  left: 316px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#frame4 {
+  background-color: #ffffff;
+}
+
+.copy8 {
+  color: #0000aa;
+  top: 18px;
+  left: 39px;
+  font-size: 24.2px;
+  line-height: 30.8px;
+}
+
+.copy9 {
+  color: #ff6433;
+  top: 14px;
+  left: 40px;
+  font-size: 24.1px;
+  line-height: 30.8px;
+}
+
+.card2 {
+  width: 103px;
+  height: auto;
+}
+
+.terms2 {
+  top: -73.5px;
+  left: 531px;
+  font-size: 6.1px;
+  color: #0000aa;
+}
+
+#logo_blue {
+  top: -157px;
+  width: 91px;
+  left: 605px;
+}
+
+.orange_dash1 {
+  background-color: #ff6433;
+  height: 9px;
+  top: 0px;
+  transform: rotate(90deg);
+  left: -359px;
+}
+
+#shine1 {
+  top: -65px;
+  left: 368px;
+}
+
+/* #shine1 {
+  width: 300px;
+  height: 250px;
+  background-image: url(./images/shine.png);
+  background-size: 190px;
+  background-position: -50px 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/mask.png);
+  -webkit-mask-size: 300px 250px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url(./images/mask.png);
+} */
+
+/* Text */
+
+/* #text_holder {
+  color: #fff;
+  font-family: "ESKlarheitGrotesk Xbd";
+  width: 100%;
+  left: 18px;
+  top: 18px;
+  font-size: 17px;
+  line-height: 25.5px;
+  letter-spacing: 0.1px;
+}
+
+#text_holder span {
+  color: #000064;
+}
+
+#text_holder sup {
+  position: absolute;
+  font-size: 9px;
+  transform: translate(-4.7px, -6.3px);
+  font-family: "ESKlarheitGrotesk Xbd";
+  letter-spacing: 0.2px;
+}
+
+#h1 span {
+  font-size: 24.7px;
+}
+
+#h2,
+#h3 {
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+}
+#h3{
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+}
+#h3 sup{
+  font-size: 10px;
+  transform: translate(-0.6px, -6.5px);
+  color: #000064;
+  font-family: "ESKlarheitGrotesk Xbd";
+}
+.fullstop{
+  position: absolute;
+  color: #fff !important;
+  left: 128px;
+}
+#h4 {
+  font-size: 17px;
+  line-height: 21px;
+  letter-spacing: 0.1px;
+}
+#h4 span{
+  color: #00e1ff;
+}
+
+#endframeBg {
+  position: absolute;
+  bottom: 0px;
+  height: 9px;
+  width: 100%;
+  background: #3fc8f4;
+}
+
+#term {
+  top: 198px;
+  right: 13px;
+  font-size: 8px;
+  color: #ffffff;
+  font-family: "KlarheitGroteskBook", sans-serif;
+}
+
+#cta {
+  width: 93px;
+  height: 32px;
+  background-color: #00e1ff;
+  border-radius: 3px;
+  color: #000064;
+  font-family: "ESKlarheitGrotesk Smbd";
+  text-align: center;
+  font-size: 11px;
+  top: 96px;
+  left: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#bgImg {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+#card {
+  width: 159px;
+  top: 97px;
+  right: 10px;
+}
+
+#card1 {
+  top: 96px;
+  left: 137px;
+  min-width: 147px;
+  min-height: 93px;
+  border-radius: 4px;
+  background-image: url(./images/card_new.png);
+  background-size: contain;
+  position: absolute;
+  background-repeat: no-repeat;
+}
+
+#shine1 {
+  width: 300px;
+  height: 250px;
+  background-image: url(./images/shine.png);
+  background-size: 190px;
+  background-position: -50px 50px;
+  background-repeat: no-repeat;
+  position: absolute;
+  mix-blend-mode: soft-light;
+  -webkit-mask-image: url(./images/mask.png);
+  -webkit-mask-size: 300px 250px;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-image: url(./images/mask.png);
+} */
